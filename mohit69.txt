@@ -1,0 +1,18 @@
+Features: 
+	*> Registration / Login / Forgot Pass. / Email verify
+	*> My Profile
+	*> ( PreYrP, Certs., Books) Upload / Download
+	> (Assignment, Marks	
+	> Notice Board
+	> QnA, ChatBot
+	> Live Teaching (chhota meet)
+
+Models
+	> User ->  (email, pass, ID)
+	> Student -> ( Name[String], RegNo[Srtring], Course[ObjectId], Class[ObjectId], Phone[String], Image[Buffer], Certificates[Array], Role[ObjectId])
+	> Teacher -> ( Name[String], RegNo[Srtring], Dept[ObjectId], Phone[String], Image[Buffer], Certificates[Array], Classes[Array], Role[ObjectId])
+	> Course -> ( Name[String], Teachers[Array], Credit[Number], hasLab[Boolean], Subjects[Array])
+	> Dept -> (Name[String], HOD[ObjectId], DHOD[ObjectId], Courses[Array]) 
+	> Class -> (Name[String])
+	> Role -> (Name[String])
+	
